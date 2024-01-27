@@ -9,13 +9,6 @@ public class SimplePlayerMovement : MonoBehaviour
     private Vector2 direction;
     public int NumberOfJokes = 0;
 
-    public float freeze_clock;
-
-    void Start()
-    {
-        freeze_clock = 0f;
-    }
-
     void Update()
     {
         ProcessInputs();
@@ -23,16 +16,7 @@ public class SimplePlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (freeze_clock > 0f)
-        {
-            freeze_clock -= Time.deltaTime;
-            rigidbody.velocity = new Vector2(0f, 0f);
-        }
-
-        else
-        {
-            Move();
-        }
+        Move();
     }
 
 
@@ -47,10 +31,5 @@ public class SimplePlayerMovement : MonoBehaviour
     void Move()
     {
         rigidbody.velocity = new Vector2 (direction.x * speed, direction.y * speed);
-    }
-
-    public void FreezePlayer()
-    {
-        freeze_clock = 10f;
     }
 }
