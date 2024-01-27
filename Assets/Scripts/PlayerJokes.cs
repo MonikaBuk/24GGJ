@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class PlayerJokes : MonoBehaviour
 {
+    public static PlayerJokes instance;
     public Joke[] jokes;
     public JokeLoader loader;
     public const int jokes_limit = 3;
-    public static int jokes_count;
+    public int jokes_count;
     public int randnum;
 
+    private void Awake()
+    {
+        instance = this;
+        DontDestroyOnLoad(this.gameObject);
+    }
     private void Start()
     {
         jokes = new Joke[jokes_limit];

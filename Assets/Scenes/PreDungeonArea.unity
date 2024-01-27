@@ -2380,6 +2380,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4523632489125338458, guid: 86d88e0a79781634b80c5ab21490e395, type: 3}
+      propertyPath: loader
+      value: 
+      objectReference: {fileID: 1393105528}
     - target: {fileID: 7067441853354471905, guid: 86d88e0a79781634b80c5ab21490e395, type: 3}
       propertyPath: m_Name
       value: TestCharacter
@@ -2392,6 +2396,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7067441853354471905, guid: 86d88e0a79781634b80c5ab21490e395, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1393105527}
+    - targetCorrespondingSourceObject: {fileID: 7067441853354471905, guid: 86d88e0a79781634b80c5ab21490e395, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1393105528}
   m_SourcePrefab: {fileID: 100100000, guid: 86d88e0a79781634b80c5ab21490e395, type: 3}
 --- !u!1 &886185964
 GameObject:
@@ -6093,6 +6100,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.05}
   m_Size: {x: 0.25, y: 0.45}
   m_Direction: 0
+--- !u!114 &1393105528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393105520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f730674b0292794c96cb5fcbd9be793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: 
 --- !u!1 &1869594263
 GameObject:
   m_ObjectHideFlags: 0
