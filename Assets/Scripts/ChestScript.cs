@@ -16,6 +16,7 @@ public class ChestScript : MonoBehaviour
     public float timeHeldDown;
 
     // Start is called before the first frame update
+
     void Start()
     {
         buttonPrompt.GetComponent<Renderer>().enabled = false;
