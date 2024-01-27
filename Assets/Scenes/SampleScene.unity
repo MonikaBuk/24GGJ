@@ -2603,7 +2603,8 @@ GameObject:
   - component: {fileID: 1166899925}
   - component: {fileID: 1166899924}
   - component: {fileID: 1166899928}
-  m_Layer: 0
+  - component: {fileID: 1166899929}
+  m_Layer: 3
   m_Name: TestEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2747,6 +2748,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToFollow: {fileID: 1743237803}
+--- !u!114 &1166899929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166899923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b168a04a850044042b9445dcae53b6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1743237801}
 --- !u!1 &1438766795
 GameObject:
   m_ObjectHideFlags: 0
@@ -4029,7 +4043,7 @@ GameObject:
   - component: {fileID: 1743237804}
   - component: {fileID: 1743237806}
   - component: {fileID: 1743237805}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TestCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4163,7 +4177,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &1743237806
 MonoBehaviour:
@@ -4187,3 +4201,4 @@ SceneRoots:
   - {fileID: 1566363659}
   - {fileID: 1743237803}
   - {fileID: 1166899927}
+  - {fileID: 560370935}
