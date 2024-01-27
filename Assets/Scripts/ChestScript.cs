@@ -99,7 +99,7 @@ public class ChestScript : MonoBehaviour
         
         if (isHoldingItem)
         {
-            GameObject.Find("Player").GetComponent<SimplePlayerMovement>().NumberOfJokes++;
+            //GameObject.Find("Player").GetComponent<SimplePlayerMovement>().NumberOfJokes++;
             jokeloader.SetActive(true);
             isHoldingItem = false;
         }
