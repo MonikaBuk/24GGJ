@@ -7,7 +7,7 @@ public class PlayerJokes : MonoBehaviour
     public Joke[] jokes;
     public JokeLoader loader;
     public const int jokes_limit = 3;
-    public int jokes_count = 0;
+    private int jokes_count;
     public int randnum;
 
     private void Start()
@@ -19,11 +19,10 @@ public class PlayerJokes : MonoBehaviour
 
     void Update()
     {   
-        loader.jokelist(randnum);
         jokes[jokes_count] = ScriptableObject.CreateInstance<Joke>();
         jokes[jokes_count].setJoke(loader.test);
-        print(jokes[jokes_count].content);
         jokes_count++;
+        print(jokes[jokes_count-1].content);
         randomiser();
         gameObject.SetActive(false);
         
@@ -31,7 +30,8 @@ public class PlayerJokes : MonoBehaviour
 
     private void randomiser()
     {
-        randnum = Random.Range(0, 2);
+        randnum = Random.Range(0, 4);
+        loader.jokelist(randnum);
         print(randnum);
     }
 }

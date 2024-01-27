@@ -16,7 +16,7 @@ public class JokeLoader : MonoBehaviour
     }*/
     void Start()
     {
-        jokeslist = new List<string> {"your mom", "Bob", "Cat" };
+        jokeslist = new List<string> {"Deez", "Nuts", "Cat", "Catcam" };
     }
 
     // Update is called once per frame
