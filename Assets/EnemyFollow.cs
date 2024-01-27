@@ -28,6 +28,7 @@ public class EnemyFollow : MonoBehaviour
         if (freeze_clock > 0f)
         {
             freeze_clock -= Time.deltaTime;
+            agent.speed = 0f;
         }
 
         if (freeze_clock <= 0f)
@@ -36,10 +37,7 @@ public class EnemyFollow : MonoBehaviour
             agent.SetDestination(objectToFollow.position);
         }
 
-        else
-        {
-            agent.speed = 0f;
-        }
+ 
     }
 
     void Update()
