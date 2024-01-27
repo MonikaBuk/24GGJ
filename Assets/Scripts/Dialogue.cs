@@ -15,7 +15,10 @@ public class Dialogue : MonoBehaviour
     public TMP_Text diaglogueText;
     //Dialogue list
     public List<string> dialogues;
-    
+
+    //winDialogue list 
+    public List<string> dialogues_win;
+
     private int DialogueID;
    
     //character index;
