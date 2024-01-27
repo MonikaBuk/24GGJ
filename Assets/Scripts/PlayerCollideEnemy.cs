@@ -17,7 +17,7 @@ public class PlayerCollideEnemy : MonoBehaviour
     {
         if (collision.gameObject == player)
         {
-            if (PlayerJokes.jokes_count > 0)
+            if (PlayerJokes.instance.jokes_count > 0)
             {
                 jokes.removelast();
                 //respawn item in chest
