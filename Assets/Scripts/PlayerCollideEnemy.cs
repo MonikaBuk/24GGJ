@@ -6,6 +6,7 @@ public class PlayerCollideEnemy : MonoBehaviour
 {
     public GameObject player;
     private AudioSource audio;
+    public PlayerJokes jokes;
 
     private void Start()
     {
@@ -16,6 +17,14 @@ public class PlayerCollideEnemy : MonoBehaviour
     {
         if (collision.gameObject == player)
         {
+            if (PlayerJokes.jokes_count > 0)
+            {
+                jokes.removelast();
+            }
+            else
+            {
+                Debug.Log("empty");
+            }
             // if player life > 0
             // player life--
             // else
