@@ -20,10 +20,13 @@ public class PlayerCollideEnemy : MonoBehaviour
             if (PlayerJokes.jokes_count > 0)
             {
                 jokes.removelast();
+                //respawn item in chest
+
             }
             else
             {
                 Debug.Log("empty");
+                //gameover
             }
             // if player life > 0
             // player life--
