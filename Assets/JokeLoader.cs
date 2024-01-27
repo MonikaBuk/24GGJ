@@ -15,7 +15,7 @@ public class JokeLoader : MonoBehaviour
     {
         text.SetText("Lol");
     }*/
-    void Start()
+    void Awake()
     {
         jokeslist = new List<string> {"Deez", "Nuts", "Cat", "Catcam" };
     }
@@ -23,8 +23,6 @@ public class JokeLoader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        joke_num = PlayerJokes.instance.jokes_count;
-        print(joke_num);
     }
 
     public void jokelist(int id)

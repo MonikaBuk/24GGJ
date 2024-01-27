@@ -14,10 +14,7 @@ public class Dialogue : MonoBehaviour
     //Text 
     public TMP_Text diaglogueText;
     //Dialogue list
-    public List<string> dialogues;
-
-    //winDialogue list 
-    public List<string> dialogues_win;
+    private List<string> currentDialogue;
 
     private int DialogueID;
    
@@ -88,7 +85,7 @@ public class Dialogue : MonoBehaviour
 
     IEnumerator WritingWords() 
     {
-        string currentDialogue = dialogues[DialogueID];
+        string currentDialogue = this.currentDialogue[DialogueID];
         //Write the text
         diaglogueText.text += currentDialogue[textID];
         //Increse the textId
@@ -121,7 +118,7 @@ public class Dialogue : MonoBehaviour
         {
             waitForNext = false;
             DialogueID++;
-            if(DialogueID < dialogues.Count) 
+            if(DialogueID < currentDialogue.Count) 
             {
                 GetDialogue(DialogueID);
             }
@@ -132,5 +129,10 @@ public class Dialogue : MonoBehaviour
             }
             
         }
+    }
+
+    public void SetDialogue(List<string>dialogue) 
+    {
+        currentDialogue = new List<string>(dialogue);
     }
 }

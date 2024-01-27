@@ -141,6 +141,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueScript: {fileID: 1161869260}
+  dialogue_start:
+  - Hello
+  - Go to the cave and get 3 jokes
+  - MAKE ME LAUGH
+  dialogue_notEnough:
+  - 'Bruh, thats not enpugh '
+  - 'I need 3  '
+  dialogues_win:
+  - Good job
 --- !u!4 &483226782 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 626785870436869402, guid: e8282df1e0e41e14eacb4758388321b5, type: 3}
@@ -181,6 +190,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.4
+--- !u!114 &483226784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483226778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8342a59236b744aa0897b83217df1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues: []
+  dialogues_win: []
 --- !u!1 &532040946
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,6 +317,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1056768159622215688, guid: e8282df1e0e41e14eacb4758388321b5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 483226783}
+    - targetCorrespondingSourceObject: {fileID: 1056768159622215688, guid: e8282df1e0e41e14eacb4758388321b5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 483226784}
   m_SourcePrefab: {fileID: 100100000, guid: e8282df1e0e41e14eacb4758388321b5, type: 3}
 --- !u!1 &653196893
 GameObject:
@@ -2379,6 +2405,10 @@ PrefabInstance:
     - target: {fileID: 875046353915402151, guid: 86d88e0a79781634b80c5ab21490e395, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995568827363828577, guid: 86d88e0a79781634b80c5ab21490e395, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4523632489125338458, guid: 86d88e0a79781634b80c5ab21490e395, type: 3}
       propertyPath: loader

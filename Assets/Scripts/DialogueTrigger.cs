@@ -6,9 +6,15 @@ public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogueScript;
     private bool playerDectected;
+
+    public List<string> dialogue_start;
+    public List<string> dialogue_notEnough;
+    //winDialogue list 
+    public List<string> dialogues_win;
+
     //Detect trigger with player
     //if detected show indicator
-    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player") 
@@ -33,6 +39,17 @@ public class DialogueTrigger : MonoBehaviour
     {
         if(playerDectected && Input.GetKeyDown(KeyCode.E)) 
         {
+            
+            if(PlayerJokes.jokes_count < 3) 
+            {
+                dialogueScript.SetDialogue(dialogue_notEnough);
+            }
+            if(PlayerJokes.jokes_count >= 3) 
+            {
+                dialogueScript.SetDialogue(dialogues_win);
+            }
+
+            
             dialogueScript.StartDialogue();
         }
     }

@@ -18,7 +18,7 @@ public class PlayerCollideEnemy : MonoBehaviour
     {
         if (collision.gameObject == player)
         {
-            if (PlayerJokes.instance.jokes_count > 0)
+            if (PlayerJokes.jokes_count > 0)
             {
                 jokes.removelast();
                 addToEmptyChest();
