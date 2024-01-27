@@ -10,6 +10,7 @@ public class ChestScript : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] GameObject buttonPrompt;
     [SerializeField] GameObject chestObject;
+    [SerializeField] GameObject jokeloader;
 
     [SerializeField] Sprite OpenChestSprite;
     [SerializeField] Sprite ClosedChestSprite;
@@ -99,6 +100,7 @@ public class ChestScript : MonoBehaviour
         if (isHoldingItem)
         {
             GameObject.Find("Player").GetComponent<SimplePlayerMovement>().NumberOfJokes++;
+            jokeloader.SetActive(true);
             isHoldingItem = false;
         }
         else
