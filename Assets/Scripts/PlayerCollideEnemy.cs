@@ -14,7 +14,10 @@ public class PlayerCollideEnemy : MonoBehaviour
             // player life--
             // else
             // game lose
-            Debug.Log(0);
+            // return
+
+            player.GetComponent<SimplePlayerMovement>().FreezePlayer();
+            Debug.Log("Freeze");
         }
     }
 }
