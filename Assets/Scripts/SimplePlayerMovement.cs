@@ -7,6 +7,7 @@ public class SimplePlayerMovement : MonoBehaviour
     public float speed;
     public Rigidbody2D rigidbody;
     private Vector2 direction;
+    public int NumberOfJokes = 0;
 
     void Update()
     {
