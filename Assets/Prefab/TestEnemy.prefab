@@ -158,6 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToFollow: {fileID: 0}
+  freeze_clock: 0
 --- !u!95 &8083712628908511471
 Animator:
   serializedVersion: 5
@@ -168,7 +169,7 @@ Animator:
   m_GameObject: {fileID: 2546869739907162720}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: -2911890012179089975, guid: a4d020f4d370a5943be586b068141a26, type: 3}
+  m_Controller: {fileID: 9100000, guid: b86363bddb5e76c449a8e1ab5cae52d4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
