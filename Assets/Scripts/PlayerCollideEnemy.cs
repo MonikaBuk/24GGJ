@@ -5,6 +5,12 @@ using UnityEngine;
 public class PlayerCollideEnemy : MonoBehaviour
 {
     public GameObject player;
+    private AudioSource audio;
+
+    private void Start()
+    {
+        audio = GetComponent<AudioSource>();
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -18,6 +24,7 @@ public class PlayerCollideEnemy : MonoBehaviour
 
             gameObject.GetComponent<EnemyFollow>().Freeze();
             Debug.Log("Freeze");
+            audio.Play();
         }
     }
 }
