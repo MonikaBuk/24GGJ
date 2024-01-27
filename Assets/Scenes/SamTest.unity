@@ -630,10 +630,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1160452379463505369, guid: 664c5617f5b0c614d90bf6d00d1b262b, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464991569269713555, guid: 664c5617f5b0c614d90bf6d00d1b262b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2549814715190155747, guid: 664c5617f5b0c614d90bf6d00d1b262b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4255971350964615346, guid: 664c5617f5b0c614d90bf6d00d1b262b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4255971350964615346, guid: 664c5617f5b0c614d90bf6d00d1b262b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.0666667
+      objectReference: {fileID: 0}
     - target: {fileID: 4767827554565861223, guid: 664c5617f5b0c614d90bf6d00d1b262b, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 647908448}
+    - target: {fileID: 4824260080216878873, guid: 664c5617f5b0c614d90bf6d00d1b262b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6170998820483916774, guid: 664c5617f5b0c614d90bf6d00d1b262b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.8935
