@@ -15,6 +15,8 @@ public class ChestScript : MonoBehaviour
     public bool buttonHeldDown = false;
     public float timeHeldDown;
 
+    public GameObject test;
+
     // Start is called before the first frame update
 
     void Start()
@@ -55,6 +57,7 @@ public class ChestScript : MonoBehaviour
 
         if (canOpen && Input.GetKeyDown("i"))
         {
+            test.SetActive(true);
             buttonHeldDown = true;
 
         }
@@ -80,7 +83,7 @@ public class ChestScript : MonoBehaviour
     {
         if (isHoldingItem)
         {
-            GameObject.Find("Player").GetComponent<SimplePlayerMovement>().NumberOfJokes++; ;
+            GameObject.Find("Player").GetComponent<SimplePlayerMovement>().NumberOfJokes++;
             isHoldingItem = false;
         }
         else
