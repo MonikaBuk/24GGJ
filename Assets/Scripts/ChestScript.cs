@@ -9,6 +9,10 @@ public class ChestScript : MonoBehaviour
 {
     [SerializeField] GameObject player;
     [SerializeField] GameObject buttonPrompt;
+    [SerializeField] GameObject chestObject;
+
+    [SerializeField] Sprite OpenChestSprite;
+    [SerializeField] Sprite ClosedChestSprite;
 
     Animator anim;
 
@@ -19,7 +23,6 @@ public class ChestScript : MonoBehaviour
     public bool buttonHeldDown = false;
     public float timeHeldDown = 0;
 
-    public GameObject test;
 
     // Start is called before the first frame update
 
@@ -61,19 +64,15 @@ public class ChestScript : MonoBehaviour
     {
         
 
-
         if (canOpen && Input.GetKeyDown("i"))
         {
             anim.SetBool("OpeningBool", true);
             buttonHeldDown = true;
             
-
         }
-        
 
         if (buttonHeldDown)
         {
-            
             timeHeldDown += Time.deltaTime;
             if (timeHeldDown >= 3)
             {
@@ -85,12 +84,14 @@ public class ChestScript : MonoBehaviour
         if (Input.GetKeyUp("i"))
             {
                 buttonHeldDown = false;
-                timeHeldDown = 0;
                 anim.SetBool("OpeningBool", false);
+                timeHeldDown = 0;
+                
                 
             }
-
         
+
+
     }
     public void Open()
     {
@@ -106,9 +107,9 @@ public class ChestScript : MonoBehaviour
         }
         opened = true;
         canOpen = false;
-
-        buttonPrompt.GetComponent<Renderer>().enabled = false;
         anim.SetBool("OpeningBool", false);
+        buttonPrompt.GetComponent<Renderer>().enabled = false;
+        chestObject.GetComponent<SpriteRenderer>().sprite = OpenChestSprite;
 
     }
 }
