@@ -16,7 +16,7 @@ public class PlayerCollideEnemy : MonoBehaviour
             // game lose
             // return
 
-            player.GetComponent<SimplePlayerMovement>().FreezePlayer();
+            gameObject.GetComponent<EnemyFollow>().Freeze();
             Debug.Log("Freeze");
         }
     }
