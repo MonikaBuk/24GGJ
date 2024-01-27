@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PreDungeonArea.unity
     guid: 8cbe7d76244dd844295c00aa3d590a2f
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: f41bf59c539b54f4eaac14655a26b106
   m_configObjects: {}

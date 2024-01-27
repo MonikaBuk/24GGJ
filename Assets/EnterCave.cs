@@ -7,6 +7,6 @@ public class EnterCave : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        SceneManager.LoadScene("Main Scene");
+        SceneManager.LoadScene("MainScene");
     }
 }
