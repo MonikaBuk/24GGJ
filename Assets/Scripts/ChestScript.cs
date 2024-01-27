@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using Unity.VisualScripting;
 using UnityEditor.Build;
 using UnityEngine;
 
@@ -8,17 +9,21 @@ public class ChestScript : MonoBehaviour
 {
     [SerializeField] GameObject player;
     [SerializeField] GameObject buttonPrompt;
+
+    Animator anim;
+
     public bool isHoldingItem;
     public bool canOpen = false;
     public bool opened = false;
 
     public bool buttonHeldDown = false;
-    public float timeHeldDown;
+    public float timeHeldDown = 0;
 
     // Start is called before the first frame update
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         buttonPrompt.GetComponent<Renderer>().enabled = false;
 
         int ran = Random.Range(0, 1);
@@ -40,6 +45,7 @@ public class ChestScript : MonoBehaviour
             canOpen = true;
         }
         
+        
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -53,31 +59,40 @@ public class ChestScript : MonoBehaviour
     {
         
 
+
         if (canOpen && Input.GetKeyDown("i"))
         {
+            anim.SetBool("OpeningBool", true);
             buttonHeldDown = true;
+            
 
         }
+        
 
         if (buttonHeldDown)
         {
+            
             timeHeldDown += Time.deltaTime;
             if (timeHeldDown >= 3)
             {
                 Open();
             }
-            if (Input.GetKeyUp("i"))
+            
+           
+        }
+        if (Input.GetKeyUp("i"))
             {
                 buttonHeldDown = false;
                 timeHeldDown = 0;
+                anim.SetBool("OpeningBool", false);
+                
             }
-           
-        }
 
         
     }
     public void Open()
     {
+        
         if (isHoldingItem)
         {
             GameObject.Find("Player").GetComponent<SimplePlayerMovement>().NumberOfJokes++; ;
@@ -89,5 +104,9 @@ public class ChestScript : MonoBehaviour
         }
         opened = true;
         canOpen = false;
+
+        buttonPrompt.GetComponent<Renderer>().enabled = false;
+        anim.SetBool("OpeningBool", false);
+
     }
 }
