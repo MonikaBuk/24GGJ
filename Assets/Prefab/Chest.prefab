@@ -494,7 +494,6 @@ MonoBehaviour:
   opened: 0
   buttonHeldDown: 0
   timeHeldDown: 0
-  test: {fileID: 0}
 --- !u!95 &7378682427930727749
 Animator:
   serializedVersion: 5
