@@ -11,6 +11,10 @@ public class PlayerJokes : MonoBehaviour
     public static int jokes_count;
     public int randnum;
 
+    [SerializeField] GameObject joke1;
+    [SerializeField] GameObject joke2;
+    [SerializeField] GameObject joke3;
+
     private void Awake()
     {
         /*instance = this;
@@ -25,7 +29,30 @@ public class PlayerJokes : MonoBehaviour
 
     void Update()
     {   
-        
+        if (jokes_count == 1)
+        {
+            joke1.SetActive(true);
+            joke2.SetActive(false);
+            joke3.SetActive(false);
+        }
+        else if (jokes_count == 2)
+        {
+            joke1.SetActive(true);
+            joke2.SetActive(true);
+            joke3.SetActive(false);
+        }
+        else if (jokes_count == 3)
+        {
+            joke1.SetActive(true);
+            joke2.SetActive(true);
+            joke3.SetActive(true);
+        }
+        else
+        {
+            joke1.SetActive(false);
+            joke2.SetActive(false);
+            joke3.SetActive(false);
+        }
     }
 
     private void randomiser()

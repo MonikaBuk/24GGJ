@@ -221,6 +221,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loader: {fileID: 0}
   randnum: 0
+  joke1: {fileID: 0}
+  joke2: {fileID: 0}
+  joke3: {fileID: 0}
 --- !u!1 &3812417211664751687
 GameObject:
   m_ObjectHideFlags: 0
