@@ -76,7 +76,7 @@ public class SimplePlayerMovement : MonoBehaviour
             if (collision.gameObject.CompareTag("Trap"))
             {
                 freeze_clock = 10f;
-                speed = speed - 10;
+                speed = speed / 2;
             }
         }
 
