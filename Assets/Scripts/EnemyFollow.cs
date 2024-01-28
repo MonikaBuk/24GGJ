@@ -11,7 +11,7 @@ public class EnemyFollow : MonoBehaviour
     private NavMeshAgent agent;
     private bool faceLeft = false;
     public float freeze_clock;
-    private const float enemy_speed = 5f;
+    private const float enemy_speed = 8f;
     public bool isFrozen = false;
     private Animator anim;
 

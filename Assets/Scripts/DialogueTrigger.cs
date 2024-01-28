@@ -61,15 +61,15 @@ public class DialogueTrigger : MonoBehaviour
                     dialogues_win.Add("You got 3 jokes");
                     dialogues_win.Add("Let me see the first joke");
                     dialogues_win.Add(PlayerJokes.jokes[0].content);
+                    dialogues_win.Add("AHAHAHAHAHAHAHAHAHAHAHAHAHAH");
                     dialogues_win.Add(PlayerJokes.jokes[1].content);
+                    dialogues_win.Add("AHAHAHAHAHAHAHAHAHAHAHAHAHAH");
                     dialogues_win.Add(PlayerJokes.jokes[2].content);
                     dialogues_win.Add("AHAHAHAHAHAHAHAHAHAHAHAHAHAH");
                     dialogueScript.SetDialogue(dialogues_win);
                     DialoguAdded = true;
                 }
             }
-
-            
             dialogueScript.StartDialogue();
         }
     }

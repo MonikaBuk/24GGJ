@@ -14,6 +14,10 @@ public class EndGameButtonScript : MonoBehaviour
 
     public void OnClick()
     {
+        PlayerJokes.jokes = new Joke[3];
+        GameStartManager.StartDialogueEnded = false;
+        PlayerJokes.jokes_count = 0;
+        DialogueTrigger.DialoguAdded = false;
         SceneManager.LoadScene("Cutscene");
     }
 

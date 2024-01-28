@@ -35,13 +35,17 @@ public class SimplePlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Move();
+        Move();
+
         if (freeze_clock > 0f)
         {
-            freeze_clock -= Time.deltaTime;
-        }
+            freeze_clock -= Time.deltaTime;
+
+        }
+
         if (freeze_clock <= 0f)
-        {
+        {
+
             speed = startspeed;
         }
     }
@@ -73,18 +77,31 @@ public class SimplePlayerMovement : MonoBehaviour
     public void FreezePlayer()
     {
         freeze_clock = 10f;
-    }
+    }
+
     private void OnCollisionExit2D(Collision2D collision)
-    { 
-
-        if (speed - 10 > 0)
-        {
-            if (collision.gameObject.CompareTag("Trap"))
-            {
-                freeze_clock = 10f;
-                speed = speed / 2;
-            }
-        }
-
-    }
+    { 
+
+
+
+        if (speed - 8 > 0)
+
+        {
+
+            if (collision.gameObject.CompareTag("Trap"))
+
+            {
+
+                freeze_clock = 10f;
+
+                speed = speed / 2;
+
+            }
+
+        }
+
+
+
+    }
+
 }

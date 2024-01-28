@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
 
@@ -153,6 +154,10 @@ public class Dialogue : MonoBehaviour
                     }
                     ToggleIndicator(true);
                     EndDialogue();
+                    if(PlayerJokes.jokes_count >= 3) 
+                    {
+                        SceneManager.LoadScene("GameWon");
+                    }
                 }
             }
             

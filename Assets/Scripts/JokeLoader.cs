@@ -20,7 +20,7 @@ public class JokeLoader : MonoBehaviour
     }*/
     void Awake()
     {
-        jokeslist = new List<string> {"Dad Joke", "Deez", "Better Dad Joke", "Deez Nuts" };
+        jokeslist = new List<string> {"A Blind Man Walks into a bar... And then a table... And then a chair", "Deez", "Why do Fish always sing off key?... You cant tuna fish", "Do you smoke or drink coffee?... I Drink It.", "How do you get a squirrel to like you?... Act like a nut.", "Why don't eggs tell jokes?... They'd crack each other up", "FOR THE BEANS", "Why couldn't the bicycle stand up by itself?... It was two tired.", "Dad, can you put the cat out?... I didn't know it was on fire." };
     }
 
     // Update is called once per frame

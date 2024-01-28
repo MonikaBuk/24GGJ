@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77f16e7832ad5f446a47b245684d93b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
   rigidbody: {fileID: 9159446691803654493}
   freeze_clock: 0
 --- !u!50 &9159446691803654493
