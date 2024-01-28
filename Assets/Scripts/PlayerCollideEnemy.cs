@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerCollideEnemy : MonoBehaviour
 {
@@ -39,13 +41,14 @@ public class PlayerCollideEnemy : MonoBehaviour
                 }
                 else
                 {
-
-
                     enemyanimator.SetBool("HasJoke", false);
+                    SceneManager.LoadScene("GameOver");
+                    
                 }
 
                 //gameover
 
+                
                 // if player life > 0
                 // player life--
                 // else

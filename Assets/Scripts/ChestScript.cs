@@ -65,7 +65,7 @@ public class ChestScript : MonoBehaviour
     {
         
 
-        if (canOpen && Input.GetKeyDown("e"))
+        if (canOpen && Input.GetKeyDown("i"))
         {
             anim.SetBool("OpeningBool", true);
             buttonHeldDown = true;
@@ -82,7 +82,7 @@ public class ChestScript : MonoBehaviour
             
            
         }
-        if (Input.GetKeyUp("e"))
+        if (Input.GetKeyUp("i"))
             {
                 buttonHeldDown = false;
                 anim.SetBool("OpeningBool", false);
@@ -105,7 +105,7 @@ public class ChestScript : MonoBehaviour
         }
         else
         {
-           // Debug.Log("Empty");
+            Debug.Log("Empty");
         }
         opened = true;
         canOpen = false;
@@ -115,8 +115,5 @@ public class ChestScript : MonoBehaviour
 
     }
 
-    public void ShutChest()
-    {
-
-    }
+    
 }
