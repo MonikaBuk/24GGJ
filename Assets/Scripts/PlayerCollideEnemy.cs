@@ -66,12 +66,14 @@ public class PlayerCollideEnemy : MonoBehaviour
         {
             int a = Random.Range(0, empty_chest_count - 1);
             chest_list[a].GetComponent<ChestScript>().isHoldingItem = true;
+            chest_list[a].GetComponent<ChestScript>().opened = false;
             // do the close chest animation
         }
         
         else
         {
             chest_list[0].GetComponent<ChestScript>().isHoldingItem = true;
+            chest_list[0].GetComponent<ChestScript>().opened = false;
             // do the close chest animation
         }
     }
