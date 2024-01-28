@@ -8,6 +8,7 @@ public class DialogueTrigger : MonoBehaviour
     private bool playerDectected;
 
     public List<string> dialogue_start;
+    public List<string> dialogue_hint;
     public List<string> dialogue_notEnough;
     //winDialogue list 
     public List<string> dialogues_win;
@@ -39,11 +40,11 @@ public class DialogueTrigger : MonoBehaviour
     {
         if(playerDectected && Input.GetKeyDown(KeyCode.E)) 
         {
-            if (PlayerJokes.jokes_count < 2)
+            if (PlayerJokes.jokes_count < 1)
             {
-                dialogueScript.SetDialogue(dialogue_start);
+                dialogueScript.SetDialogue(dialogue_hint);
             }
-            if (PlayerJokes.jokes_count > 1 &&PlayerJokes.jokes_count < 3) 
+            if (PlayerJokes.jokes_count >= 1 &&PlayerJokes.jokes_count < 3) 
             {
                 dialogueScript.SetDialogue(dialogue_notEnough);
             }

@@ -173,12 +173,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueScript: {fileID: 1161869260}
   dialogue_start:
-  - Hello
-  - Go to the cave and get 3 jokes
+  - Hello there.
+  - Did you just make fun of my voice!?
+  - Fine
+  - If you want your wish to come true
+  - 'Go in to the cave and get 3 amazing jokes to me '
   - MAKE ME LAUGH
+  dialogue_hint:
+  - You can get differernt jokes from the chest .
+  - 'Bring 3 jokes to me '
   dialogue_notEnough:
-  - 'Bruh, thats not enough '
-  - 'I need 3  '
+  - Bruh that's not enough
+  - I need 3
   dialogues_win:
   - Good job
 --- !u!4 &483226782 stripped
@@ -2368,15 +2374,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8395046868781980287, guid: c17ce2c1b97fdcf43a1715cbbbab13b7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.25
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8395046868781980287, guid: c17ce2c1b97fdcf43a1715cbbbab13b7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8395046868781980287, guid: c17ce2c1b97fdcf43a1715cbbbab13b7, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.25
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8395046868781980287, guid: c17ce2c1b97fdcf43a1715cbbbab13b7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2384,7 +2390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8395046868781980287, guid: c17ce2c1b97fdcf43a1715cbbbab13b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.447
+      value: 0.864
       objectReference: {fileID: 0}
     - target: {fileID: 8395046868781980287, guid: c17ce2c1b97fdcf43a1715cbbbab13b7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2429,6 +2435,14 @@ PrefabInstance:
     - target: {fileID: 8472930900152527624, guid: c17ce2c1b97fdcf43a1715cbbbab13b7, type: 3}
       propertyPath: m_SortingOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9022905668547560522, guid: c17ce2c1b97fdcf43a1715cbbbab13b7, type: 3}
+      propertyPath: m_fontSize
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9022905668547560522, guid: c17ce2c1b97fdcf43a1715cbbbab13b7, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 9022905668547560522, guid: c17ce2c1b97fdcf43a1715cbbbab13b7, type: 3}
       propertyPath: m_sharedMaterial
@@ -2989,7 +3003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 875046353915402151, guid: 86d88e0a79781634b80c5ab21490e395, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.37047893
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 875046353915402151, guid: 86d88e0a79781634b80c5ab21490e395, type: 3}
       propertyPath: m_LocalPosition.z
