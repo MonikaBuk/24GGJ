@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerJokes : MonoBehaviour
 {
     //public static PlayerJokes instance;
-    public static Joke[] jokes;
+    public static Joke[] jokes = new Joke[3];
     public JokeLoader loader;
     public const int jokes_limit = 3;
     public static int jokes_count;
@@ -15,20 +15,23 @@ public class PlayerJokes : MonoBehaviour
     [SerializeField] GameObject joke2;
     [SerializeField] GameObject joke3;
 
-    private void Awake()
-    {
-        /*instance = this;
-        DontDestroyOnLoad(this.gameObject);*/
-    }
     private void Start()
     {
-        jokes = new Joke[jokes_limit];
+        //jokes = new Joke[jokes_limit];
         randnum = Random.Range(0, 3);
+        loader.jokelist(randnum);
 
     }
 
     void Update()
     {   
+        if(jokes_count > 0) 
+        { 
+            for(int i = 0; i <= jokes_count-1; i++) 
+            {
+                Debug.Log(jokes[i].content);
+            }
+        }
         if (jokes_count == 1)
         {
             joke1.SetActive(true);
@@ -67,8 +70,10 @@ public class PlayerJokes : MonoBehaviour
         jokes[jokes_count] = ScriptableObject.CreateInstance<Joke>();
         jokes[jokes_count].setJoke(loader.numtojoke);
         jokes_count++;
-        print(jokes[jokes_count - 1].content);
-        print(randnum);
+        /*       print(jokes[jokes_count - 1].content);
+               print(randnum);*/
+        loader.other();
+
         randomiser();
     }
 

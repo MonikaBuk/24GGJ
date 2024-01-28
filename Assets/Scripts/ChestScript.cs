@@ -115,5 +115,8 @@ public class ChestScript : MonoBehaviour
 
     }
 
-    
+    public void ShutChest()
+    {
+
+    }
 }

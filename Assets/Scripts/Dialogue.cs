@@ -35,7 +35,17 @@ public class Dialogue : MonoBehaviour
     private void Awake()
     {
         ToggleIndicator(false);
-        ToggleWindow(false);
+        if (GameStartManager.StartDialogueEnded) 
+        {
+            ToggleWindow(false);
+        }
+        else 
+        {
+            ToggleWindow(true);
+            StartDialogue();
+        }
+
+        
     }
     private void ToggleWindow(bool isToggled) 
     {
@@ -137,6 +147,10 @@ public class Dialogue : MonoBehaviour
                 }
                 else
                 {
+                    if (!GameStartManager.StartDialogueEnded) 
+                    {
+                        GameStartManager.StartDialogueEnded = true;
+                    }
                     ToggleIndicator(true);
                     EndDialogue();
                 }
