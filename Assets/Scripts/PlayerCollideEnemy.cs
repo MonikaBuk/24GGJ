@@ -10,6 +10,7 @@ public class PlayerCollideEnemy : MonoBehaviour
     public Transform chests;
     private Animator enemyanimator;
     private bool isFrozen;
+    [SerializeField] Sprite ClosedChestSprite;
 
 
     private void Start()
