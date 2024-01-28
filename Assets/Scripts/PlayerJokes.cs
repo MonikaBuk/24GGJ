@@ -23,8 +23,8 @@ public class PlayerJokes : MonoBehaviour
     private void Start()
     {
         jokes = new Joke[jokes_limit];
-        randomiser();
-        
+        randnum = Random.Range(0, 3);
+
     }
 
     void Update()
@@ -57,9 +57,8 @@ public class PlayerJokes : MonoBehaviour
 
     private void randomiser()
     {
-        randnum = Random.Range(0, 4);
+        randnum = Random.Range(0, 3);
         loader.jokelist(randnum);
-        print(randnum);
         
     }
 
@@ -69,6 +68,7 @@ public class PlayerJokes : MonoBehaviour
         jokes[jokes_count].setJoke(loader.numtojoke);
         jokes_count++;
         print(jokes[jokes_count - 1].content);
+        print(randnum);
         randomiser();
     }
 

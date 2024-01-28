@@ -11,6 +11,7 @@ public class JokeLoader : MonoBehaviour
     public string numtojoke;
     private List<string> jokeslist;
     private int joketype;
+    private bool existed;
 
 /*    private void Awake()
     {
@@ -18,12 +19,22 @@ public class JokeLoader : MonoBehaviour
     }*/
     void Awake()
     {
-        jokeslist = new List<string> {"Dad Joke", "Deez", "Dad Joke", "Deez" };
+        jokeslist = new List<string> {"Dad Joke", "Deez", "Better Dad Joke", "Deez Nuts" };
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            existed = false;
+            jokeanim.SetActive(false);
+            TimeResume();
+        }
+        if(existed)
+        {
+            ZaWorldo();
+        }
     }
 
     public void jokelist(int id)
@@ -31,24 +42,37 @@ public class JokeLoader : MonoBehaviour
         numtojoke = jokeslist[id];
 
         joketype = id % 2;
+        print (joketype);
 
         if (joketype == 0) 
         {
             jokeanim.SetActive(true);
-            text.SetText("Dad Joke");
+            text.SetText("Bad Joke Acquired");
+            existed = true;
         }
         else if (joketype == 1)
         {
             //dad joke
             jokeanim.SetActive(true);
-            text.SetText("Dad Joke");
+            text.SetText("Dad Joke Acquired");
+            existed = true;
         }
         else
         {
             //deez
             jokeanim.SetActive(true);
-            text.SetText("Bad Joke");
+            text.SetText("Dad Joke Acquired");
+            existed = true;
         }
 
+    }
+
+    private void ZaWorldo()
+    {
+        Time.timeScale = 0;
+    }
+    private void TimeResume()
+    {
+        Time.timeScale = 1;
     }
 }
