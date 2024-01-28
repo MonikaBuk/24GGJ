@@ -105,7 +105,7 @@ public class ChestScript : MonoBehaviour
         }
         else
         {
-            Debug.Log("Empty");
+           // Debug.Log("Empty");
         }
         opened = true;
         canOpen = false;
