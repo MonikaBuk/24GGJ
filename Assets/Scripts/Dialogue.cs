@@ -11,6 +11,8 @@ public class Dialogue : MonoBehaviour
     public GameObject dialogueWindow;
     //Indicator
     public GameObject dialogueIndicator;
+    //KeyPrompt
+    public GameObject dialoguePrompt;
     //Text 
     public TMP_Text diaglogueText;
     //Dialogue list
@@ -45,6 +47,11 @@ public class Dialogue : MonoBehaviour
         dialogueIndicator.SetActive(isToggled);
     }
 
+    public void TogglePrompt(bool isToggled)
+    {
+        dialoguePrompt.SetActive(isToggled);
+    }
+
     //Start Dialogue
     public void StartDialogue() 
     {
@@ -57,6 +64,8 @@ public class Dialogue : MonoBehaviour
         ToggleWindow(true);
         //hide indicator
         ToggleIndicator(false);
+
+        TogglePrompt(false);
         //start DialogueID at 0
         GetDialogue(0);
     }
@@ -114,19 +123,25 @@ public class Dialogue : MonoBehaviour
             return;
         }
 
-        if (waitForNext && Input.GetKeyDown(KeyCode.E)) 
+        if (waitForNext) 
         {
-            waitForNext = false;
-            DialogueID++;
-            if(DialogueID < currentDialogue.Count) 
+            TogglePrompt(true);
+            if (Input.GetKeyDown(KeyCode.E)) 
             {
-                GetDialogue(DialogueID);
+                waitForNext = false;
+                TogglePrompt(false);
+                DialogueID++;
+                if(DialogueID < currentDialogue.Count) 
+                {
+                    GetDialogue(DialogueID);
+                }
+                else
+                {
+                    ToggleIndicator(true);
+                    EndDialogue();
+                }
             }
-            else
-            {
-                ToggleIndicator(true);
-                EndDialogue();
-            }
+            
             
         }
     }

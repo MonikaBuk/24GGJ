@@ -39,8 +39,11 @@ public class DialogueTrigger : MonoBehaviour
     {
         if(playerDectected && Input.GetKeyDown(KeyCode.E)) 
         {
-            
-            if(PlayerJokes.jokes_count < 3) 
+            if (PlayerJokes.jokes_count < 2)
+            {
+                dialogueScript.SetDialogue(dialogue_start);
+            }
+            if (PlayerJokes.jokes_count > 1 &&PlayerJokes.jokes_count < 3) 
             {
                 dialogueScript.SetDialogue(dialogue_notEnough);
             }

@@ -1,0 +1,1779 @@
+fileFormatVersion: 2
+guid: bf285ac1b085b6c49adec08288c28dd5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece1a976b68267b468fd9e3b6beaf33e
+      internalID: 1277397061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_281
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c23e388dfd9c4a42aafa26b4b0c8c4d
+      internalID: 775895454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_282
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3531e3579062f46b5a0d94dc6d265e
+      internalID: -42294295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_283
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5db5238b2198f4fb61e7442cc539a6
+      internalID: 959866487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_284
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000597772d3591541a87fcf4af223f32
+      internalID: 558594037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_285
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930a4560722ea3a4db608f3420c2c9de
+      internalID: -1098997703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_286
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e85bc72472fb64cb2536426afab89d
+      internalID: 639576265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_287
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e17696bb3fee4489cebcd05e5d3ed3
+      internalID: -1969794370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_288
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795b801b6dfa7d8489c1d036774c0fec
+      internalID: -7053510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_289
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a41af05b7d7217438f0d2e5c92c9a20
+      internalID: 1336655984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_290
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8d5babdbfdf3649b060a862426a3d2
+      internalID: 1951204879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_291
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66984b5e3fd4cfa468719ec741817351
+      internalID: -300062553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_292
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadbc688994b57c4a95f4b20114af092
+      internalID: -1428245479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_293
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797ab0aaa2483a845a5a9280d0491067
+      internalID: -1339254523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_294
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d41053e8ef26804abc4ec6a4a4e3ce7
+      internalID: -388414741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_295
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c877bb9e27da7458dbcb96a191af6a
+      internalID: -141946513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_296
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5c69a9ded6a6440b313c9de64ac8d3
+      internalID: 1979158594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_297
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe9b3ff088b3834f824472333f5f4ff
+      internalID: -709380116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_298
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94917bbfd739ed49a279d575ba73635
+      internalID: -1847067851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_299
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29374e253590d5e4bbf4a5e10b272bda
+      internalID: 844284406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_300
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8df50bd5af55945b97b8ce1a50968d
+      internalID: 713780318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_301
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b35275fe390f14b9cd80ad77262f3b
+      internalID: -114909416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_302
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf0dd50c3f2f83459e7a593a07dfe6c
+      internalID: 384793565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_303
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a34de6da578d54ea09934deb797134
+      internalID: -72548605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_304
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fa04029444b2b4caccdded71f41843
+      internalID: 1495438841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_305
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174ff53b9724ebe48bf4883ea737ac6a
+      internalID: 455737894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_306
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9a00eaeda429b4e8ca983eae42b48b
+      internalID: 1576549310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_307
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea86ee5583fff254aabe270a09af163c
+      internalID: 1601061148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_308
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9974dfc79070bdf4bbf336fd03a54328
+      internalID: -1251041141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_309
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859e37379d3ca3b48a2e468fd32c097f
+      internalID: -1599847684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_310
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba7706874bd3d14f88eb39dfdda1792
+      internalID: 2145559673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_311
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fb8ac1d67d9d2429c2a3f07152f718
+      internalID: -1218980217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_312
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080df6f9ba4b44a4ba9e6479ee7ba72e
+      internalID: -1758240550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_313
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585946d9a7c5b224dac5a7ce219fdfe8
+      internalID: 326857400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_314
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179ac6b824d40ed4fb05acd20c25762b
+      internalID: -251455460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_315
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c03bb857a41e1545bd6406e98f618e3
+      internalID: 614013247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_316
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e63f6012635b4da28264fd3bf3983
+      internalID: -1505507548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_317
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cdda82c0cadf340850b1d86bad1297
+      internalID: 334081682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_318
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b332680208e210a43a49f1f19629f9e7
+      internalID: -1868837895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_319
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c286489261edc4c82c25a17a2fb914
+      internalID: 1146433512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_320
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9366433ddac7778449a7bb93fa9055a0
+      internalID: 852263971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_321
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8b5d95f8889a94d9fae01166c92137
+      internalID: -419129636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_322
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b65b25600007154e8238defb46c3135
+      internalID: 776711072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_323
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e59d59255dc6fe4ea53d34d0ccd895a
+      internalID: -920373480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_324
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4279dba5c7daa0d41a117f325609d509
+      internalID: -524300816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_325
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bfd9f2e44d74f4e9b1320100cdfb68
+      internalID: -606406777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_326
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa84dc6b79f040249a69a84e1028cd1b
+      internalID: 1807613369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_327
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04e9b13ffb461649872ba44a6709e6f
+      internalID: -613393237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_328
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32bf910ddbed1b49bf438ddfdffe2f0
+      internalID: 1110437686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_329
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab6b64be8e61434d93fa2e709c37fa1
+      internalID: -71310509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_330
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf42a83da3516f4287293f8bfab5eb1
+      internalID: 964206275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_331
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b79d4ad91aca74eb697180f783576f
+      internalID: -1605437946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_332
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ba3738858203c4e95cb4e10bc8a75d
+      internalID: -1892943851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_333
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb29c1f24693b5442b9526f3383b70bc
+      internalID: 2046651083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_334
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b5375c0f500064590a0edbcd5ee217
+      internalID: 1251376186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_335
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd591658c8d88e64ca593e8be44fe69e
+      internalID: -222659887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_336
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4449d6e7c7573459caaa70f2049b6f
+      internalID: 674517552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_337
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20673db59fc0fa64d8c8bfc33de83112
+      internalID: -539092527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_338
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a32a1d51fadde64a9d7166c050a78cb
+      internalID: 32552850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Emoticons_Free_339
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff57c5fd18b39249b35c13faa742410
+      internalID: 57696640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI_Emoticons_Free_0: 486269966
+      UI_Emoticons_Free_1: -255617997
+      UI_Emoticons_Free_10: -1333589925
+      UI_Emoticons_Free_100: -1794356707
+      UI_Emoticons_Free_101: 1516932894
+      UI_Emoticons_Free_102: -784196798
+      UI_Emoticons_Free_103: 1882896723
+      UI_Emoticons_Free_104: -1287430798
+      UI_Emoticons_Free_105: 1831139872
+      UI_Emoticons_Free_106: -1062289180
+      UI_Emoticons_Free_107: -2066287584
+      UI_Emoticons_Free_108: 1032692957
+      UI_Emoticons_Free_109: -848028164
+      UI_Emoticons_Free_11: 1804100474
+      UI_Emoticons_Free_110: 1742498145
+      UI_Emoticons_Free_111: -202007927
+      UI_Emoticons_Free_112: -372561261
+      UI_Emoticons_Free_113: 874464212
+      UI_Emoticons_Free_114: 818266463
+      UI_Emoticons_Free_115: 167260878
+      UI_Emoticons_Free_116: 1069103007
+      UI_Emoticons_Free_117: -1924388218
+      UI_Emoticons_Free_118: 248961921
+      UI_Emoticons_Free_119: -1354246223
+      UI_Emoticons_Free_12: 1530415505
+      UI_Emoticons_Free_120: -1247611795
+      UI_Emoticons_Free_121: -802620375
+      UI_Emoticons_Free_122: -1917432585
+      UI_Emoticons_Free_123: 690124164
+      UI_Emoticons_Free_124: 1970665339
+      UI_Emoticons_Free_125: 1480712561
+      UI_Emoticons_Free_126: -183427707
+      UI_Emoticons_Free_127: 784813308
+      UI_Emoticons_Free_128: 847298111
+      UI_Emoticons_Free_129: -1451238387
+      UI_Emoticons_Free_13: -1131913366
+      UI_Emoticons_Free_130: 723328623
+      UI_Emoticons_Free_131: 2134633910
+      UI_Emoticons_Free_132: 1695174113
+      UI_Emoticons_Free_133: -150664145
+      UI_Emoticons_Free_134: -259116582
+      UI_Emoticons_Free_135: 1217740945
+      UI_Emoticons_Free_136: 1424280701
+      UI_Emoticons_Free_137: -677460388
+      UI_Emoticons_Free_138: -1592876011
+      UI_Emoticons_Free_139: 198478825
+      UI_Emoticons_Free_14: 2077722764
+      UI_Emoticons_Free_140: -661598096
+      UI_Emoticons_Free_141: 987109779
+      UI_Emoticons_Free_142: -1794272242
+      UI_Emoticons_Free_143: -1564550760
+      UI_Emoticons_Free_144: 1203385622
+      UI_Emoticons_Free_145: -1843679417
+      UI_Emoticons_Free_146: -888553341
+      UI_Emoticons_Free_147: -1469164146
+      UI_Emoticons_Free_148: -266769646
+      UI_Emoticons_Free_149: 384992111
+      UI_Emoticons_Free_15: -1126670685
+      UI_Emoticons_Free_150: 979798292
+      UI_Emoticons_Free_151: -977274101
+      UI_Emoticons_Free_152: 540187444
+      UI_Emoticons_Free_153: -1242779991
+      UI_Emoticons_Free_154: 112021488
+      UI_Emoticons_Free_155: -355770522
+      UI_Emoticons_Free_156: 1065086035
+      UI_Emoticons_Free_157: 238932986
+      UI_Emoticons_Free_158: -1752844964
+      UI_Emoticons_Free_159: 410035483
+      UI_Emoticons_Free_16: 1890511977
+      UI_Emoticons_Free_160: 1260958643
+      UI_Emoticons_Free_161: 32407405
+      UI_Emoticons_Free_162: 897822971
+      UI_Emoticons_Free_163: 86794258
+      UI_Emoticons_Free_164: 2003851269
+      UI_Emoticons_Free_165: -539144171
+      UI_Emoticons_Free_166: 2112834847
+      UI_Emoticons_Free_167: -436430547
+      UI_Emoticons_Free_168: -1762348325
+      UI_Emoticons_Free_169: 579446109
+      UI_Emoticons_Free_17: 1250832024
+      UI_Emoticons_Free_170: 969476080
+      UI_Emoticons_Free_171: 433297591
+      UI_Emoticons_Free_172: 1925588946
+      UI_Emoticons_Free_173: -561540279
+      UI_Emoticons_Free_174: -1396408015
+      UI_Emoticons_Free_175: -1776106660
+      UI_Emoticons_Free_176: -1701909098
+      UI_Emoticons_Free_177: 71238433
+      UI_Emoticons_Free_178: -2025703901
+      UI_Emoticons_Free_179: 1913782009
+      UI_Emoticons_Free_18: -1321394631
+      UI_Emoticons_Free_180: 1442368204
+      UI_Emoticons_Free_181: 1986533202
+      UI_Emoticons_Free_182: -1029750670
+      UI_Emoticons_Free_183: 722162295
+      UI_Emoticons_Free_184: -658501249
+      UI_Emoticons_Free_185: -100829729
+      UI_Emoticons_Free_186: -1497634609
+      UI_Emoticons_Free_187: -194250836
+      UI_Emoticons_Free_188: -1242488996
+      UI_Emoticons_Free_189: -656910180
+      UI_Emoticons_Free_19: -1766502713
+      UI_Emoticons_Free_190: -58744358
+      UI_Emoticons_Free_191: 2027533053
+      UI_Emoticons_Free_192: -1478082831
+      UI_Emoticons_Free_193: 930633849
+      UI_Emoticons_Free_194: -914264899
+      UI_Emoticons_Free_195: -387519035
+      UI_Emoticons_Free_196: 2110249748
+      UI_Emoticons_Free_197: 1356504575
+      UI_Emoticons_Free_198: -122172611
+      UI_Emoticons_Free_199: -1372674990
+      UI_Emoticons_Free_2: 1447134013
+      UI_Emoticons_Free_20: -1025945583
+      UI_Emoticons_Free_200: 330977882
+      UI_Emoticons_Free_201: -689537964
+      UI_Emoticons_Free_202: -2141219933
+      UI_Emoticons_Free_203: -2095870945
+      UI_Emoticons_Free_204: 760637459
+      UI_Emoticons_Free_205: 2132471893
+      UI_Emoticons_Free_206: -1194770426
+      UI_Emoticons_Free_207: -1157343502
+      UI_Emoticons_Free_208: 459569320
+      UI_Emoticons_Free_209: 944108629
+      UI_Emoticons_Free_21: 43100606
+      UI_Emoticons_Free_210: -1627363196
+      UI_Emoticons_Free_211: 1478941197
+      UI_Emoticons_Free_212: 1669673779
+      UI_Emoticons_Free_213: -968170874
+      UI_Emoticons_Free_214: -1198298239
+      UI_Emoticons_Free_215: -650451440
+      UI_Emoticons_Free_216: -179616014
+      UI_Emoticons_Free_217: -330387097
+      UI_Emoticons_Free_218: 1266643088
+      UI_Emoticons_Free_219: -869481828
+      UI_Emoticons_Free_22: -1179849792
+      UI_Emoticons_Free_220: 2062836710
+      UI_Emoticons_Free_221: -1838921244
+      UI_Emoticons_Free_222: 497949488
+      UI_Emoticons_Free_223: 1588314825
+      UI_Emoticons_Free_224: 1095266643
+      UI_Emoticons_Free_225: -1169858417
+      UI_Emoticons_Free_226: 1503877496
+      UI_Emoticons_Free_227: -291057609
+      UI_Emoticons_Free_228: 1743838924
+      UI_Emoticons_Free_229: 1371742498
+      UI_Emoticons_Free_23: 815526390
+      UI_Emoticons_Free_230: 1591871928
+      UI_Emoticons_Free_231: 2102669015
+      UI_Emoticons_Free_232: -1610137648
+      UI_Emoticons_Free_233: 313660910
+      UI_Emoticons_Free_234: -1296149741
+      UI_Emoticons_Free_235: 573154726
+      UI_Emoticons_Free_236: -2036546993
+      UI_Emoticons_Free_237: -1759244801
+      UI_Emoticons_Free_238: -1703357216
+      UI_Emoticons_Free_239: 142547251
+      UI_Emoticons_Free_24: 1770711255
+      UI_Emoticons_Free_240: 35661941
+      UI_Emoticons_Free_241: -1238648328
+      UI_Emoticons_Free_242: -1385992007
+      UI_Emoticons_Free_243: -1669471525
+      UI_Emoticons_Free_244: 96787289
+      UI_Emoticons_Free_245: 2062491433
+      UI_Emoticons_Free_246: -1443721169
+      UI_Emoticons_Free_247: -777572144
+      UI_Emoticons_Free_248: 786031312
+      UI_Emoticons_Free_249: 937867379
+      UI_Emoticons_Free_25: 303963932
+      UI_Emoticons_Free_250: 1629246550
+      UI_Emoticons_Free_251: 939043011
+      UI_Emoticons_Free_252: 1164741607
+      UI_Emoticons_Free_253: -255715322
+      UI_Emoticons_Free_254: 2071027831
+      UI_Emoticons_Free_255: -884258524
+      UI_Emoticons_Free_256: -1546366421
+      UI_Emoticons_Free_257: -387545017
+      UI_Emoticons_Free_258: -1030209786
+      UI_Emoticons_Free_259: 2057003738
+      UI_Emoticons_Free_26: -1320255779
+      UI_Emoticons_Free_260: 2120480308
+      UI_Emoticons_Free_261: -536835822
+      UI_Emoticons_Free_262: -121510569
+      UI_Emoticons_Free_263: -1943255218
+      UI_Emoticons_Free_264: 1347135462
+      UI_Emoticons_Free_265: 548447327
+      UI_Emoticons_Free_266: 1218530893
+      UI_Emoticons_Free_267: 1775706713
+      UI_Emoticons_Free_268: 1108742079
+      UI_Emoticons_Free_269: -1441623882
+      UI_Emoticons_Free_27: -901668300
+      UI_Emoticons_Free_270: -1535932905
+      UI_Emoticons_Free_271: -150049473
+      UI_Emoticons_Free_272: -1776878695
+      UI_Emoticons_Free_273: 1611851525
+      UI_Emoticons_Free_274: -941646515
+      UI_Emoticons_Free_275: 976837911
+      UI_Emoticons_Free_276: -1999177188
+      UI_Emoticons_Free_277: 253253587
+      UI_Emoticons_Free_278: -645201428
+      UI_Emoticons_Free_279: 1590183750
+      UI_Emoticons_Free_28: -1849083774
+      UI_Emoticons_Free_280: 1277397061
+      UI_Emoticons_Free_281: 775895454
+      UI_Emoticons_Free_282: -42294295
+      UI_Emoticons_Free_283: 959866487
+      UI_Emoticons_Free_284: 558594037
+      UI_Emoticons_Free_285: -1098997703
+      UI_Emoticons_Free_286: 639576265
+      UI_Emoticons_Free_287: -1969794370
+      UI_Emoticons_Free_288: -7053510
+      UI_Emoticons_Free_289: 1336655984
+      UI_Emoticons_Free_29: -1108508841
+      UI_Emoticons_Free_290: 1951204879
+      UI_Emoticons_Free_291: -300062553
+      UI_Emoticons_Free_292: -1428245479
+      UI_Emoticons_Free_293: -1339254523
+      UI_Emoticons_Free_294: -388414741
+      UI_Emoticons_Free_295: -141946513
+      UI_Emoticons_Free_296: 1979158594
+      UI_Emoticons_Free_297: -709380116
+      UI_Emoticons_Free_298: -1847067851
+      UI_Emoticons_Free_299: 844284406
+      UI_Emoticons_Free_3: -933631126
+      UI_Emoticons_Free_30: -734817766
+      UI_Emoticons_Free_300: 713780318
+      UI_Emoticons_Free_301: -114909416
+      UI_Emoticons_Free_302: 384793565
+      UI_Emoticons_Free_303: -72548605
+      UI_Emoticons_Free_304: 1495438841
+      UI_Emoticons_Free_305: 455737894
+      UI_Emoticons_Free_306: 1576549310
+      UI_Emoticons_Free_307: 1601061148
+      UI_Emoticons_Free_308: -1251041141
+      UI_Emoticons_Free_309: -1599847684
+      UI_Emoticons_Free_31: -1483237981
+      UI_Emoticons_Free_310: 2145559673
+      UI_Emoticons_Free_311: -1218980217
+      UI_Emoticons_Free_312: -1758240550
+      UI_Emoticons_Free_313: 326857400
+      UI_Emoticons_Free_314: -251455460
+      UI_Emoticons_Free_315: 614013247
+      UI_Emoticons_Free_316: -1505507548
+      UI_Emoticons_Free_317: 334081682
+      UI_Emoticons_Free_318: -1868837895
+      UI_Emoticons_Free_319: 1146433512
+      UI_Emoticons_Free_32: -860927719
+      UI_Emoticons_Free_320: 852263971
+      UI_Emoticons_Free_321: -419129636
+      UI_Emoticons_Free_322: 776711072
+      UI_Emoticons_Free_323: -920373480
+      UI_Emoticons_Free_324: -524300816
+      UI_Emoticons_Free_325: -606406777
+      UI_Emoticons_Free_326: 1807613369
+      UI_Emoticons_Free_327: -613393237
+      UI_Emoticons_Free_328: 1110437686
+      UI_Emoticons_Free_329: -71310509
+      UI_Emoticons_Free_33: -1957593617
+      UI_Emoticons_Free_330: 964206275
+      UI_Emoticons_Free_331: -1605437946
+      UI_Emoticons_Free_332: -1892943851
+      UI_Emoticons_Free_333: 2046651083
+      UI_Emoticons_Free_334: 1251376186
+      UI_Emoticons_Free_335: -222659887
+      UI_Emoticons_Free_336: 674517552
+      UI_Emoticons_Free_337: -539092527
+      UI_Emoticons_Free_338: 32552850
+      UI_Emoticons_Free_339: 57696640
+      UI_Emoticons_Free_34: 1174517627
+      UI_Emoticons_Free_35: -429106065
+      UI_Emoticons_Free_36: -17667118
+      UI_Emoticons_Free_37: -523256428
+      UI_Emoticons_Free_38: -254227781
+      UI_Emoticons_Free_39: 394655965
+      UI_Emoticons_Free_4: 79746397
+      UI_Emoticons_Free_40: -1162893905
+      UI_Emoticons_Free_41: 1590108100
+      UI_Emoticons_Free_42: 1282011468
+      UI_Emoticons_Free_43: 998895648
+      UI_Emoticons_Free_44: -1577583829
+      UI_Emoticons_Free_45: 870153305
+      UI_Emoticons_Free_46: -93040521
+      UI_Emoticons_Free_47: -1378850639
+      UI_Emoticons_Free_48: -1891479707
+      UI_Emoticons_Free_49: -893232168
+      UI_Emoticons_Free_5: 1279574236
+      UI_Emoticons_Free_50: 1223602520
+      UI_Emoticons_Free_51: 1013350832
+      UI_Emoticons_Free_52: 1804544024
+      UI_Emoticons_Free_53: -776034402
+      UI_Emoticons_Free_54: 1959977628
+      UI_Emoticons_Free_55: -1621761393
+      UI_Emoticons_Free_56: -1149625312
+      UI_Emoticons_Free_57: -605702327
+      UI_Emoticons_Free_58: -2002793782
+      UI_Emoticons_Free_59: 273200710
+      UI_Emoticons_Free_6: 1631254790
+      UI_Emoticons_Free_60: 1156609666
+      UI_Emoticons_Free_61: 664179019
+      UI_Emoticons_Free_62: -342819086
+      UI_Emoticons_Free_63: -1426897472
+      UI_Emoticons_Free_64: -1526220123
+      UI_Emoticons_Free_65: 527711447
+      UI_Emoticons_Free_66: 1277053297
+      UI_Emoticons_Free_67: -312102232
+      UI_Emoticons_Free_68: -1371050792
+      UI_Emoticons_Free_69: 1638993202
+      UI_Emoticons_Free_7: -43513662
+      UI_Emoticons_Free_70: 1082033430
+      UI_Emoticons_Free_71: -1981418669
+      UI_Emoticons_Free_72: -1589021795
+      UI_Emoticons_Free_73: 708389814
+      UI_Emoticons_Free_74: -693384936
+      UI_Emoticons_Free_75: -115315617
+      UI_Emoticons_Free_76: 639983371
+      UI_Emoticons_Free_77: -16906201
+      UI_Emoticons_Free_78: -320882211
+      UI_Emoticons_Free_79: -611798502
+      UI_Emoticons_Free_8: 2109759868
+      UI_Emoticons_Free_80: 440561305
+      UI_Emoticons_Free_81: 32851473
+      UI_Emoticons_Free_82: -536335246
+      UI_Emoticons_Free_83: 1629679335
+      UI_Emoticons_Free_84: 1531776601
+      UI_Emoticons_Free_85: -701795898
+      UI_Emoticons_Free_86: -2030568765
+      UI_Emoticons_Free_87: -851810997
+      UI_Emoticons_Free_88: 1030609832
+      UI_Emoticons_Free_89: 1070663896
+      UI_Emoticons_Free_9: -1015005178
+      UI_Emoticons_Free_90: -1722045435
+      UI_Emoticons_Free_91: -2003302729
+      UI_Emoticons_Free_92: -222527709
+      UI_Emoticons_Free_93: -882374391
+      UI_Emoticons_Free_94: 243590036
+      UI_Emoticons_Free_95: 1057969211
+      UI_Emoticons_Free_96: 877924375
+      UI_Emoticons_Free_97: 1142947213
+      UI_Emoticons_Free_98: -802413396
+      UI_Emoticons_Free_99: 641838316
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
