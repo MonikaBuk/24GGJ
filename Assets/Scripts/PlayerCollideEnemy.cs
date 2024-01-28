@@ -9,6 +9,10 @@ public class PlayerCollideEnemy : MonoBehaviour
     public PlayerJokes jokes;
     public Transform chests;
 
+
+    [SerializeField] Sprite ClosedChestSprite;
+
+
     private void Start()
     {
         audio = GetComponent<AudioSource>();
@@ -67,6 +71,7 @@ public class PlayerCollideEnemy : MonoBehaviour
             int a = Random.Range(0, empty_chest_count - 1);
             chest_list[a].GetComponent<ChestScript>().isHoldingItem = true;
             chest_list[a].GetComponent<ChestScript>().opened = false;
+            chest_list[a].GetComponent<SpriteRenderer>().sprite = ClosedChestSprite;
             // do the close chest animation
         }
         
@@ -74,6 +79,7 @@ public class PlayerCollideEnemy : MonoBehaviour
         {
             chest_list[0].GetComponent<ChestScript>().isHoldingItem = true;
             chest_list[0].GetComponent<ChestScript>().opened = false;
+            chest_list[0].GetComponent<SpriteRenderer>().sprite = ClosedChestSprite;
             // do the close chest animation
         }
     }

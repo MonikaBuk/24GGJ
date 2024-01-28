@@ -114,4 +114,9 @@ public class ChestScript : MonoBehaviour
         chestObject.GetComponent<SpriteRenderer>().sprite = OpenChestSprite;
 
     }
+
+    public void ShutChest()
+    {
+
+    }
 }
