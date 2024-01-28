@@ -66,7 +66,7 @@ public class PlayerJokes : MonoBehaviour
     public void addjoke()
     {
         jokes[jokes_count] = ScriptableObject.CreateInstance<Joke>();
-        jokes[jokes_count].setJoke(loader.test);
+        jokes[jokes_count].setJoke(loader.numtojoke);
         jokes_count++;
         print(jokes[jokes_count - 1].content);
         randomiser();

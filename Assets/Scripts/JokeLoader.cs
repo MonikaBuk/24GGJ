@@ -6,10 +6,11 @@ using System.Linq;
 
 public class JokeLoader : MonoBehaviour
 {
-    //public TMP_Text text;
-    public string test;
+    public TMP_Text text;
+    public GameObject jokeanim;
+    public string numtojoke;
     private List<string> jokeslist;
-    private int joke_num;
+    private int joketype;
 
 /*    private void Awake()
     {
@@ -17,7 +18,7 @@ public class JokeLoader : MonoBehaviour
     }*/
     void Awake()
     {
-        jokeslist = new List<string> {"Deez", "Nuts", "Cat", "Catcam" };
+        jokeslist = new List<string> {"Dad Joke", "Deez", "Dad Joke", "Deez" };
     }
 
     // Update is called once per frame
@@ -27,7 +28,26 @@ public class JokeLoader : MonoBehaviour
 
     public void jokelist(int id)
     {
-        test = jokeslist[id];
-        
+        numtojoke = jokeslist[id];
+
+        joketype = id % 2;
+
+        if (joketype == 0) 
+        {
+            joketype += 2;
+        }
+        else if (joketype == 1)
+        {
+            //dad joke
+            jokeanim.SetActive(true);
+            text.SetText("Dad Joke");
+        }
+        else
+        {
+            //deez
+            jokeanim.SetActive(true);
+            text.SetText("Bad Joke");
+        }
+
     }
 }

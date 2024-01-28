@@ -160,7 +160,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9cbb47aa085378844877ad18d84831aa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 507d4180905b4c048b826b123565172d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -489,6 +489,7 @@ MonoBehaviour:
   chestObject: {fileID: 6377804153537255873}
   OpenChestSprite: {fileID: 21300000, guid: 9f7fd5820f590d245878d49ec3a9524d, type: 3}
   ClosedChestSprite: {fileID: 21300000, guid: 86d048c9e2620f74690aa9ea1328dab8, type: 3}
+  jokes: {fileID: 0}
   isHoldingItem: 0
   canOpen: 0
   opened: 0
