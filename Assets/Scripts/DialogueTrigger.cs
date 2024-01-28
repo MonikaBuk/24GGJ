@@ -15,6 +15,10 @@ public class DialogueTrigger : MonoBehaviour
 
     //Detect trigger with player
     //if detected show indicator
+    private void Awake()
+    {
+        dialogueScript.SetDialogue(dialogue_start);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -44,7 +48,7 @@ public class DialogueTrigger : MonoBehaviour
             {
                 dialogueScript.SetDialogue(dialogue_hint);
             }
-            if (PlayerJokes.jokes_count >= 1 &&PlayerJokes.jokes_count < 3) 
+            if (PlayerJokes.jokes_count >= 1 && PlayerJokes.jokes_count < 3) 
             {
                 dialogueScript.SetDialogue(dialogue_notEnough);
             }
