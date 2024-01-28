@@ -34,7 +34,8 @@ public class JokeLoader : MonoBehaviour
 
         if (joketype == 0) 
         {
-            joketype += 2;
+            jokeanim.SetActive(true);
+            text.SetText("Dad Joke");
         }
         else if (joketype == 1)
         {
