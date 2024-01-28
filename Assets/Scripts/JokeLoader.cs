@@ -12,6 +12,7 @@ public class JokeLoader : MonoBehaviour
     private List<string> jokeslist;
     private int joketype;
     private bool existed;
+    private int test;
 
 /*    private void Awake()
     {
@@ -28,7 +29,10 @@ public class JokeLoader : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             existed = false;
-            jokeanim.SetActive(false);
+            if(jokeanim != null) 
+            {
+                jokeanim.SetActive(false);
+            }
             TimeResume();
         }
         if(existed)
@@ -42,29 +46,44 @@ public class JokeLoader : MonoBehaviour
         numtojoke = jokeslist[id];
 
         joketype = id % 2;
-        print (joketype);
 
-        if (joketype == 0) 
+    }
+
+    public void other()
+    {
+        print(joketype);
+
+        if (joketype == 0)
         {
-            jokeanim.SetActive(true);
+            if (jokeanim != null)
+            {
+                jokeanim.SetActive(true);
+            }
+
             text.SetText("Bad Joke Acquired");
             existed = true;
         }
         else if (joketype == 1)
         {
             //dad joke
-            jokeanim.SetActive(true);
+            if (jokeanim != null)
+            {
+                jokeanim.SetActive(true);
+            }
             text.SetText("Dad Joke Acquired");
             existed = true;
         }
         else
         {
             //deez
-            jokeanim.SetActive(true);
+            if (jokeanim != null)
+            {
+                jokeanim.SetActive(true);
+            }
+
             text.SetText("Dad Joke Acquired");
             existed = true;
         }
-
     }
 
     private void ZaWorldo()

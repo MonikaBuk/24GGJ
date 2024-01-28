@@ -21,7 +21,14 @@ public class SimplePlayerMovement : MonoBehaviour
 
     void Update()
     {
-        ProcessInputs();
+        if(GameStartManager.StartDialogueEnded != null) 
+        {
+            if (GameStartManager.StartDialogueEnded) 
+            {
+                ProcessInputs();
+            }
+            
+        }
     }
 
     private void FixedUpdate()

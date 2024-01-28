@@ -12,6 +12,8 @@ public class DialogueTrigger : MonoBehaviour
     public List<string> dialogue_notEnough;
     //winDialogue list 
     public List<string> dialogues_win;
+    private static Joke[] jokesw;
+    public static bool DialoguAdded = false;
 
     //Detect trigger with player
     //if detected show indicator
@@ -54,13 +56,17 @@ public class DialogueTrigger : MonoBehaviour
             }
             if(PlayerJokes.jokes_count >= 3) 
             {
-                dialogues_win.Add("You got 3 jokes");
-                dialogues_win.Add("Let me see the first joke");
-                dialogues_win.Add(PlayerJokes.jokes[0].content);
-                dialogues_win.Add(PlayerJokes.jokes[1].content);
-                dialogues_win.Add(PlayerJokes.jokes[2].content);
-                dialogues_win.Add("AHAHAHAHAHAHAHAHAHAHAHAHAHAH");
-                dialogueScript.SetDialogue(dialogues_win);
+                if (!DialoguAdded) 
+                {
+                    dialogues_win.Add("You got 3 jokes");
+                    dialogues_win.Add("Let me see the first joke");
+                    dialogues_win.Add(PlayerJokes.jokes[0].content);
+                    dialogues_win.Add(PlayerJokes.jokes[1].content);
+                    dialogues_win.Add(PlayerJokes.jokes[2].content);
+                    dialogues_win.Add("AHAHAHAHAHAHAHAHAHAHAHAHAHAH");
+                    dialogueScript.SetDialogue(dialogues_win);
+                    DialoguAdded = true;
+                }
             }
 
             
