@@ -5,6 +5,7 @@ using UnityEngine;
 public class SimplePlayerMovement : MonoBehaviour
 {
     public float speed;
+    private float startspeed;
     public Rigidbody2D rigidbody;
     private Vector2 direction;
     //public int NumberOfJokes = 0;
@@ -17,16 +18,26 @@ public class SimplePlayerMovement : MonoBehaviour
     {
         freeze_clock = 0f;
         animator = GetComponent<Animator>();
+        startspeed = speed;
     }
 
     void Update()
     {
         ProcessInputs();
+
     }
 
     private void FixedUpdate()
     {
         Move();
+        if (freeze_clock > 0f)
+        {
+            freeze_clock -= Time.deltaTime;
+        }
+        if (freeze_clock <= 0f)
+        {
+            speed = startspeed;
+        }
     }
 
 
@@ -40,7 +51,7 @@ public class SimplePlayerMovement : MonoBehaviour
 
     void Move()
     {
-        rigidbody.velocity = new Vector2 (direction.x * speed, direction.y * speed);
+        rigidbody.velocity = new Vector2(direction.x * speed, direction.y * speed);
         animator.SetFloat("Horizontal", direction.x);
         animator.SetFloat("Vertical", direction.y);
         if (direction.x != 0f)
@@ -57,6 +68,17 @@ public class SimplePlayerMovement : MonoBehaviour
     {
         freeze_clock = 10f;
     }
+    private void OnCollisionExit2D(Collision2D collision)
+    { 
 
+        if (speed - 10 > 0)
+        {
+            if (collision.gameObject.CompareTag("Trap"))
+            {
+                freeze_clock = 10f;
+                speed = speed - 10;
+            }
+        }
 
+    }
 }
